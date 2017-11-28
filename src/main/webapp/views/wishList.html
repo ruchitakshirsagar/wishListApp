@@ -1,0 +1,20 @@
+<table border=1>
+			<tr>
+			    <th>wishListID</th>
+                <th>ProductID</th>
+                <th>Price</th>
+                <th>Product Description</th>
+                <th>Rating</th>
+               
+            </tr>
+			<tr ng-repeat="product in products">
+			<td>{{product.wishListID}}</td>
+     <td>{{product.productID}}</td>
+      <td>{{product.price}} </td>
+      <td>{{product.productDescription}}</td>
+      <td>{{product.rating}}</td>
+      <td><button ng-click="removeFromWishList(product.wishListID)" class="blue-button">Remove From WishList</button> </td>
+    </tr>
+    
+    </table>
+		

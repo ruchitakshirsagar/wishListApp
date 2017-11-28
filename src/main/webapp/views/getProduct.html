@@ -1,0 +1,24 @@
+<table border=1>
+			<tr>
+                <th>ProductID</th>
+                <th>Price</th>
+                <th>Product Description</th>
+                <th>Rating</th>
+               
+            </tr>
+        
+			<tr>
+     <td>{{product.productID}}</td>
+      <td>{{product.price}} </td>
+      <td>{{product.productDescription}}</td>
+      <td>{{product.rating}}</td>
+      <td><button ng-click="addToWishList(product)" class="blue-button">Add To Wish List</button> </td>
+    </tr>
+    
+    </table>
+    
+     <br />
+    
+        <a href="#!/viewWishList">Got to Wish List</a>
+		
+		
